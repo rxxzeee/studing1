@@ -23,11 +23,6 @@ interface ArcanaCardProps {
 
 export const ArcanaCard: React.FC<ArcanaCardProps> = ({ arcana }) => {
   const [open, setOpen] = useState(false);
-  const maxDescriptionLength = 100; // Максимальна довжина опису перед обрізанням
-
-  // const truncatedDescription = arcana.description.length > maxDescriptionLength 
-  //   ? `${arcana.description.substring(0, maxDescriptionLength)}...` 
-  //   : arcana.description;
 
   return (
     <>
