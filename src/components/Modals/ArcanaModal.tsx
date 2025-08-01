@@ -7,7 +7,6 @@ Typography,
 TextField,
 Button,
 Box,
-DialogActions
 } from '@mui/material';
 import { Arcana } from '../Card/ArcanaCard'; // або окремий файл типів
 import { useCartStore } from '../../store/useCartStore';
